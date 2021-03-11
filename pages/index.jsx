@@ -3,8 +3,9 @@ import { Flex, Box } from "@chakra-ui/react";
 import styles from "../styles/sass/Home.module.scss";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Jumbotron from "../components/jumbotron";
+import Jumbotron from "../components/Jumbotron";
 import About from "../components/About";
+import Menu from "../components/Menu";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       </Box>
 
       <About />
+      <Menu />
       <Footer />
     </div>
   );

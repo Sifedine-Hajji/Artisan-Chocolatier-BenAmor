@@ -10,7 +10,7 @@ export default function Jumbotron() {
       flexDir="column"
     >
       <Image width="400px" src="/img/ABlogo2.1.png" alt="Logo" />
-      <Text>Goutez au chocolat artisanal sans conservateurs</Text>
+      <Text>Goutez au bon chocolat artisanal sans conservateurs! </Text>
     </Flex>
   );
 }
