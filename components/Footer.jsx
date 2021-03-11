@@ -3,7 +3,12 @@ import { Flex, Text, Link } from "@chakra-ui/react";
 export default function Footer() {
   return (
     <footer>
-      <Flex justifyContent="center" backgroundColor="#ADB5BD">
+      <Flex
+        justifyContent="center"
+        backgroundColor="#ADB5BD"
+        flexWrap="wrap"
+        textAlign="center"
+      >
         <Text>
           © 2021, Amal Benamor, Artisan chocolatier, Made with{" "}
           <Link fontWeight="bold" href="https://nextjs.org/" target="BLANK">
