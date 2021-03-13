@@ -30,11 +30,12 @@ export default function Menu() {
       >
         My products
       </Heading>{" "}
-      <HStack height="100vh" spacing="80">
+      <Flex height="100vh" marginTop="90px">
         <Stack flexDir="row">
           <Image
             width="200px"
             height="200px"
+            border="3px solid #E6CCB2"
             borderRadius="50%"
             src="/img/Gato1.jpg"
           />
@@ -45,12 +46,23 @@ export default function Menu() {
           <Image
             width="200px"
             height="200px"
+            border="3px solid #E6CCB2"
             borderRadius="50%"
             src="/img/Gato1.jpg"
           />
           <Text>Ceci est un gateau a la pistache</Text>
         </Stack>
-      </HStack>
+        <Stack flexDir="row">
+          <Image
+            width="200px"
+            height="200px"
+            border="3px solid #E6CCB2"
+            borderRadius="50%"
+            src="/img/Gato1.jpg"
+          />
+          <Text>Ceci est un gateau a la pistache</Text>
+        </Stack>
+      </Flex>
     </Flex>
   );
 }
