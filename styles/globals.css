@@ -1,3 +1,11 @@
+@font-face{
+  font-family: MagentaRose;
+  src: url('../public/fonts/MagentaRose.ttf');
+}
+@font-face{
+  font-family: PaintWChoco;
+  src: url('../public/fonts/Paintingwithchocolate-K5mo.ttf');
+}
 html,
 body {
   padding: 0;

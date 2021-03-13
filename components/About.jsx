@@ -15,7 +15,8 @@ export default function About() {
         textAlign="center"
         width="100%"
         fontSize="50px"
-        textDecoration="underline"
+        fontFamily="MagentaRose"
+        pt="8"
       >
         About
       </Heading>{" "}

@@ -6,7 +6,7 @@ import {
   Heading,
   Text,
   HStack,
-  Spacer,
+  Stack,
 } from "@chakra-ui/react";
 
 export default function Menu() {
@@ -24,54 +24,33 @@ export default function Menu() {
         textAlign="center"
         width="100%"
         fontSize="50px"
-        textDecoration="underline"
         color="#E6CCB2"
-        backgroundColor="#7F5539"
+        pt="8"
+        fontFamily="MagentaRose"
       >
-        What I do ?
+        My products
       </Heading>{" "}
-      <Flex width="80%" paddingTop="80px" justifyContent="flex-end">
-        <Flex flexDir="column">
-          <Heading as="h2" px="2" color="#7F5539">
-            Petits pralinées au pistache
-          </Heading>
-          <Text>
-            {" "}
-            ce sont des petits pralinées au pistache enrobés de chocolat
-          </Text>
-        </Flex>
+      <HStack height="100vh" spacing="80">
+        <Stack flexDir="row">
+          <Image
+            width="200px"
+            height="200px"
+            borderRadius="50%"
+            src="/img/Gato1.jpg"
+          />
+          <Text>Ceci est un gateau a la pistache</Text>
+        </Stack>
 
-        <Image
-          border="5px solid black"
-          borderRadius="10px"
-          width="300px"
-          src="/img/Gato1.jpg"
-          alt=""
-        />
-      </Flex>
-      <Flex width="80%" paddingTop="80px" justifyContent="flex-start">
-        <Image
-          border="5px solid black"
-          borderRadius="10px"
-          width="300px"
-          src="/img/Gato1.jpg"
-          alt=""
-        />
-        <Flex flexDir="column">
-          <Heading
-            as="h2"
-            px="2"
-            color="#7F5539"
-            textDecoration=" #7F5539 wavy underline"
-          >
-            Petits pralinées au pistache
-          </Heading>
-          <Text>
-            {" "}
-            ce sont des petits pralinées au pistache enrobés de chocolat
-          </Text>
-        </Flex>
-      </Flex>
+        <Stack flexDir="row">
+          <Image
+            width="200px"
+            height="200px"
+            borderRadius="50%"
+            src="/img/Gato1.jpg"
+          />
+          <Text>Ceci est un gateau a la pistache</Text>
+        </Stack>
+      </HStack>
     </Flex>
   );
 }
