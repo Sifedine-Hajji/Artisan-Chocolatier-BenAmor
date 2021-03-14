@@ -10,11 +10,21 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
-const Products = [
+const products = [
   {
     titre: "Praline au chocolat",
-    image: "",
+    image: "/img/Gato1.jpg",
     description: "praline à la pistache enrobée de chocolat ",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
   },
   {
     titre: "Macaron au chocolat ",
@@ -48,7 +58,6 @@ export default function Menu() {
     <Flex
       color="#E6CCB2"
       width="100%"
-      height="100vh"
       flexDir="column"
       alignItems="center"
       // backgroundColor="#121417"
@@ -67,14 +76,30 @@ export default function Menu() {
         My products
       </Heading>{" "}
       <Flex
-        width="55%"
+        width="70%"
         marginTop="90px"
         flexWrap="wrap"
         justifyContent="center"
         padding="10px"
         justifyContent="space-between"
       >
-        <Text>Salut</Text>
+        {products.map((product) => (
+          <HStack m="2">
+            <Image
+              w="200px"
+              h="200px"
+              border="3px solid #E6CCB2"
+              borderRadius="50%"
+              src={product.image}
+            />
+            <VStack>
+              <Heading as="h4" size="lg">
+                {product.titre}
+              </Heading>
+              <Text>{product.description}</Text>
+            </VStack>
+          </HStack>
+        ))}
       </Flex>
     </Flex>
   );
