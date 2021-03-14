@@ -12,43 +12,43 @@ import {
 
 const products = [
   {
-    titre: "Praline au chocolat",
-    image: "/img/Gato1.jpg",
-    description: "praline à la pistache enrobée de chocolat ",
+    titre: " Sachet de Pralines divers",
+    image: "/img/sachetsDePralines.jpg",
+    description: "sachets de variétés de pralines (coco, noisettes,amandes)",
   },
   {
-    titre: "Macaron au chocolat ",
-    image: "",
+    titre: "Cake aux divers fruits secs",
+    image: "/img/cakeFruitsSecs.jpg",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+  },
+  {
+    titre: "Milles feuilles à la fraise",
+    image: "/img/MillefeuillesFraise.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
   },
   {
     titre: "Macaron au chocolat ",
-    image: "",
+    image: "/img/sachetsDePralines.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
   },
   {
     titre: "Macaron au chocolat ",
-    image: "",
+    image: "/img/Meringues.jpeg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
   },
   {
     titre: "Macaron au chocolat ",
-    image: "",
+    image: "/img/galleteDesRois.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
   },
   {
-    titre: "Macaron au chocolat ",
-    image: "",
+    titre: "Mille feuilles à la fraise ",
+    image: "/img/sachetsDePralines.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
   },
   {
-    titre: "Macaron au chocolat ",
-    image: "",
-    description: "Macaron fouré au chocolat ou alors a la confiture",
-  },
-  {
-    titre: "Macaron au chocolat ",
-    image: "",
+    titre: "Macaron rose au chocolat ",
+    image: "/img/sachetsDePralines.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
   },
 ];
@@ -84,7 +84,7 @@ export default function Menu() {
         justifyContent="space-between"
       >
         {products.map((product) => (
-          <HStack m="2">
+          <HStack m="1">
             <Image
               w="200px"
               h="200px"
