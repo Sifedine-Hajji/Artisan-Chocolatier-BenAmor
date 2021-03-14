@@ -10,11 +10,45 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
+const Products = [
+  {
+    titre: "Praline au chocolat",
+    image: "",
+    description: "praline à la pistache enrobée de chocolat ",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+  },
+];
+
 export default function Menu() {
   return (
     <Flex
       color="#E6CCB2"
       width="100%"
+      height="100vh"
       flexDir="column"
       alignItems="center"
       // backgroundColor="#121417"
@@ -40,178 +74,7 @@ export default function Menu() {
         padding="10px"
         justifyContent="space-between"
       >
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="auto"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h1" size="lg">
-              {" "}
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="15px"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h4" size="lg">
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="15px"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h4" size="lg">
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="15px"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h4" size="lg">
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="15px"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h4" size="lg">
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="15px"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h4" size="lg">
-              {" "}
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="15px"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h4" size="lg">
-              {" "}
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
-        <Stack
-          flexDir="row"
-          height="220px"
-          margin="15px"
-          borderBottom="1px solid #ddd"
-        >
-          <Image
-            width="200px"
-            height="200px"
-            border="3px solid #E6CCB2"
-            borderRadius="50%"
-            src="/img/Gato1.jpg"
-          />
-          <VStack>
-            {" "}
-            <Heading as="h4" size="lg">
-              {" "}
-              Praline au chocolat
-            </Heading>
-            <Text>Ceci est un gateau a la pistache</Text>
-          </VStack>
-        </Stack>
+        <Text>Salut</Text>
       </Flex>
     </Flex>
   );
