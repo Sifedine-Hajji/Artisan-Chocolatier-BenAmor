@@ -1,9 +1,16 @@
 import { Link, Box, Flex } from "@chakra-ui/react";
+import { useEffect } from "react";
 
 export default function Navbar() {
+  useEffect(() => {
+    window.addEventListener("scroll", function () {
+      let header = document.querySelector(".header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+  }, []);
   return (
-    <Flex color="#E6CCB2" padding="4">
-      <Link px="3" href="#home">
+    <Flex color="#E6CCB2" padding="4" position="fixed" className="header">
+      <Link px="3" href="#Home">
         {" "}
         Home{" "}
       </Link>{" "}
@@ -13,7 +20,7 @@ export default function Navbar() {
         Products{" "}
       </Link>
       |
-      <Link px="3" href="#contact">
+      <Link px="3" href="#Contact">
         {" "}
         Contact{" "}
       </Link>

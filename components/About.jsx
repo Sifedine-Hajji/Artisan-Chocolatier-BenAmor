@@ -3,7 +3,7 @@ import ScrollButton from "./ScrollButtonAnim";
 export default function About() {
   return (
     <Flex
-      height="49vh"
+      height="55vh"
       backgroundColor="#121417"
       color="#E6CCB2"
       width="100%"
@@ -16,7 +16,7 @@ export default function About() {
         width="100%"
         fontSize="50px"
         fontFamily="MagentaRose"
-        pt="8"
+        pt="20"
       >
         About
       </Heading>{" "}

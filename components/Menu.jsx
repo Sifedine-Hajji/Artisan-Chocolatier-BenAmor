@@ -12,9 +12,9 @@ import {
 
 const products = [
   {
-    titre: " Sachet de Pralines divers",
+    titre: " Pralines mix",
     image: "/img/sachetsDePralines.jpg",
-    description: "sachets de variétés de pralines (coco, noisettes,amandes)",
+    description: "mix de pralines divers (coco, noisettte, amandes)",
   },
   {
     titre: "Cake aux divers fruits secs",
@@ -33,7 +33,7 @@ const products = [
   },
   {
     titre: "Macaron au chocolat ",
-    image: "/img/Meringues.jpeg",
+    image: "/img/Meringues.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
   },
   {
@@ -69,7 +69,6 @@ export default function Menu() {
         textAlign="center"
         width="100%"
         fontSize="50px"
-        color="#E6CCB2"
         pt="8"
         fontFamily="MagentaRose"
       >

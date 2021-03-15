@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Jumbotron from "../components/Jumbotron";
 import About from "../components/About";
 import Menu from "../components/Menu";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -13,12 +14,18 @@ export default function Home() {
       <Head>
         <title>Artisan Chocolatier Benamor</title>
         <link rel="icon" href="/favicon.png" />
+        <script
+          src="https://kit.fontawesome.com/a076d05399.js"
+          crossorigin="anonymous"
+        ></script>
       </Head>
       <Box
         backgroundImage="url('/img/cacaoBanner.jpg')"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
         width="100%"
+        height="45vh"
+        id="Home"
       >
         <Header />
         <Jumbotron />
@@ -26,6 +33,8 @@ export default function Home() {
 
       <About />
       <Menu />
+
+      <Contact />
       <Footer />
     </div>
   );

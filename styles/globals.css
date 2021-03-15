@@ -26,6 +26,10 @@ a {
   box-sizing: border-box;
 }
 
+.header.sticky {
+  background-color: #B07E4A;
+
+}
 
 /* ========================== ScrollBar ====================== */
 
