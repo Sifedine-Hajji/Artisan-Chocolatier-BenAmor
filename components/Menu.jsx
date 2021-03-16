@@ -68,7 +68,7 @@ export default function Menu() {
         as="h1"
         textAlign="center"
         width="100%"
-        fontSize="50px"
+        fontSize={["30px", "30px", "30px", "40px", "50px", "50px"]}
         pt="8"
         fontFamily="MagentaRose"
       >
@@ -83,15 +83,14 @@ export default function Menu() {
         justifyContent="space-between"
       >
         {products.map((product) => (
-          <HStack m="1">
+          <HStack m="1" flexWrap="wrap">
             <Image
-              w="200px"
-              h="200px"
+              w="250px"
+              h="250px"
               border="3px solid #E6CCB2"
-              borderRadius="50%"
               src={product.image}
             />
-            <VStack>
+            <VStack fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}>
               <Heading as="h4" size="lg">
                 {product.titre}
               </Heading>

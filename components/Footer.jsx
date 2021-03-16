@@ -8,6 +8,7 @@ export default function Footer() {
         flexWrap="wrap"
         textAlign="center"
         backgroundColor="#B07E4A"
+        fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}
       >
         <Text>
           © 2021, Amal Benamor, Artisan chocolatier, Made with{" "}
