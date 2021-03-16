@@ -5,9 +5,9 @@ export default function Footer() {
     <footer>
       <Flex
         justifyContent="center"
-        backgroundColor="#ADB5BD"
         flexWrap="wrap"
         textAlign="center"
+        backgroundColor="#B07E4A"
       >
         <Text>
           © 2021, Amal Benamor, Artisan chocolatier, Made with{" "}

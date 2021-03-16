@@ -14,10 +14,6 @@ export default function Home() {
       <Head>
         <title>Artisan Chocolatier Benamor</title>
         <link rel="icon" href="/favicon.png" />
-        <script
-          src="https://kit.fontawesome.com/a076d05399.js"
-          crossorigin="anonymous"
-        ></script>
       </Head>
       <Box
         backgroundImage="url('/img/cacaoBanner.jpg')"
@@ -32,6 +28,7 @@ export default function Home() {
       </Box>
 
       <About />
+
       <Menu />
 
       <Contact />

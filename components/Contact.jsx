@@ -1,14 +1,21 @@
 import { Link, Flex, Image, Heading, Text } from "@chakra-ui/react";
-
+import {
+  FaFacebook,
+  FaInstagram,
+  FaPhoneSquare,
+  FaEnvelope,
+} from "react-icons/fa";
+import { BiArrowFromTop } from "react-icons/bi";
 export default function Contact() {
   return (
     <Flex
-      height="40vh"
+      height="30vh"
       color="#E6CCB2"
       width="100%"
       flexDir="column"
       alignItems="center"
       backgroundColor="#121417"
+      pt="10px"
       id="Contact"
     >
       <Heading
@@ -21,18 +28,24 @@ export default function Contact() {
       >
         Contact
       </Heading>
-      <Flex margin="40px">
-        <Link href="https://www.instagram.com/instagourmand1/" m="3">
-          <i class="fab fa-3x fa-instagram"></i>
+      <Text> For orders or any other questions please contact me.</Text>
+      <BiArrowFromTop size="2em" />
+      <Flex margin="20px">
+        <Link
+          href="https://www.instagram.com/instagourmand1/"
+          target="_BLANK"
+          m="3"
+        >
+          <FaInstagram size="3em" />
         </Link>
-        <Link m="3">
-          <i class="fab fa-2x fa-facebook"></i>
+        <Link m="3" href="" target="_BLANK">
+          <FaFacebook size="3em" />
         </Link>
         <Link href="tel:+32474770338" m="3">
-          <i class="fas fa-2x fa-phone"></i>
+          <FaPhoneSquare size="3em" />
         </Link>
         <Link href="mailto:amalbenamor1981@hotmail.com" m="3">
-          <i class="fas fa-2x fa-envelope-open-text"></i>
+          <FaEnvelope size="3em" />
         </Link>
       </Flex>
     </Flex>

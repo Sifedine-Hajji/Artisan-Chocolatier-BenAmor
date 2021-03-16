@@ -11,7 +11,8 @@ export default function Jumbotron() {
     >
       <Image width="400px" src="/img/ABlogo2.1.png" alt="Logo" />
       <Text backgroundColor="rgba(0,0,0,0.8)" p="0.8">
-        Goutez au bon chocolat artisanal sans conservateurs!{" "}
+        Goutez au bon chocolat artisanal sans conservateurs! et à plein d'autres
+        gourmandises.{" "}
       </Text>
     </Flex>
   );
