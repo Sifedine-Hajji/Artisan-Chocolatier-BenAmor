@@ -13,6 +13,10 @@ export default function Home() {
       <Head>
         <title>Artisan Chocolatier Benamor</title>
         <link rel="icon" href="/favicon.png" />
+        <meta
+          name="description"
+          content="Bienvenu chez l'Artisan chocolatier Amal Benamor. Decouvrez et goutez au bon chocolat artisanal sans conservateurs! Et à plein d'autres gourmandises."
+        />
       </Head>
       <Box
         backgroundImage="url('/img/cacaoBanner.jpg')"
