@@ -9,7 +9,13 @@ export default function Navbar() {
     });
   }, []);
   return (
-    <Flex color="#E6CCB2" padding="4" position="fixed" className="header">
+    <Flex
+      color="#E6CCB2"
+      padding="4"
+      position="fixed"
+      className="header"
+      width="100%"
+    >
       <Link px="3" href="#Home">
         {" "}
         Home{" "}

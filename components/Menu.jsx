@@ -59,8 +59,9 @@ export default function Menu() {
         textAlign="center"
         width="100%"
         fontSize={["30px", "30px", "30px", "40px", "50px", "50px"]}
-        pt="8"
+        paddingTop={["20", "20", "20", "100px", "100px", "100px"]}
         fontFamily="MagentaRose"
+        color="#7F5539"
       >
         My products
       </Heading>{" "}
@@ -81,10 +82,10 @@ export default function Menu() {
               src={product.image}
             />
             <VStack fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}>
-              <Heading as="h4" size="lg">
+              <Heading as="h4" size="lg" color="#7F5539">
                 {product.titre}
               </Heading>
-              <Text>{product.description}</Text>
+              <Text color="#B08968">{product.description}</Text>
             </VStack>
           </HStack>
         ))}
