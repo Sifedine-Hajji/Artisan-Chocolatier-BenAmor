@@ -5,41 +5,49 @@ const products = [
     titre: " Pralines mix",
     image: "/img/sachetsDePralines.jpg",
     description: "mix de pralines divers (coco, noisettte, amandes)",
+    alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Cake aux divers fruits secs",
     image: "/img/cakeFruitsSecs.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Milles feuilles à la fraise",
     image: "/img/MillefeuillesFraise.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron au chocolat ",
     image: "/img/sachetsDePralines.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron au chocolat ",
     image: "/img/Meringues.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron au chocolat ",
     image: "/img/galleteDesRois.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Mille feuilles à la fraise ",
     image: "/img/sachetsDePralines.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron rose au chocolat ",
     image: "/img/sachetsDePralines.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
   },
 ];
 
@@ -80,6 +88,7 @@ export default function Menu() {
               h="250px"
               border="3px solid #E6CCB2"
               src={product.image}
+              alt={product.alt}
             />
             <VStack fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}>
               <Heading as="h4" size="lg" color="#7F5539">
