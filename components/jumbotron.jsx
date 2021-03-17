@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Image, Link } from "@chakra-ui/react";
+import { Flex, Text, Image } from "@chakra-ui/react";
 
 export default function Jumbotron() {
   return (

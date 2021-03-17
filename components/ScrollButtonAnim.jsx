@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Image, Link, Heading } from "@chakra-ui/react";
+import { Link } from "@chakra-ui/react";
 import styles from "../styles/sass/Home.module.scss";
 
 export default function ScrollButton() {

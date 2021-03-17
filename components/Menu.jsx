@@ -1,14 +1,4 @@
-import {
-  Link,
-  Box,
-  Flex,
-  Image,
-  Heading,
-  Text,
-  HStack,
-  Stack,
-  VStack,
-} from "@chakra-ui/react";
+import { Flex, Image, Heading, Text, HStack, VStack } from "@chakra-ui/react";
 
 const products = [
   {

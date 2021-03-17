@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { Flex, Box } from "@chakra-ui/react";
-import styles from "../styles/sass/Home.module.scss";
+import { Box } from "@chakra-ui/react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Jumbotron from "../components/Jumbotron";

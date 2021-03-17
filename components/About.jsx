@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Image, Link, Heading } from "@chakra-ui/react";
+import { Flex, Text, Heading } from "@chakra-ui/react";
 import ScrollButton from "./ScrollButtonAnim";
 export default function About() {
   return (

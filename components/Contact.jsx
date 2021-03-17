@@ -1,4 +1,4 @@
-import { Link, Flex, Image, Heading, Text } from "@chakra-ui/react";
+import { Link, Flex, Heading, Text } from "@chakra-ui/react";
 import {
   FaFacebook,
   FaInstagram,

@@ -1,4 +1,4 @@
-import { Link, Box, Flex } from "@chakra-ui/react";
+import { Link, Flex } from "@chakra-ui/react";
 import { useEffect } from "react";
 
 export default function Navbar() {
