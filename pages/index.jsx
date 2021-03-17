@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Jumbotron from "../components/Jumbotron";
+import Jumbotron from "../components/jumbotron";
 import About from "../components/About";
 import Menu from "../components/Menu";
 import Contact from "../components/Contact";
