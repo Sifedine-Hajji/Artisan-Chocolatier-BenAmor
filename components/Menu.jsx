@@ -8,44 +8,68 @@ const products = [
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Cake aux divers fruits secs",
-    image: "/img/cakeFruitsSecs.jpg",
-    description: "Macaron fouré au chocolat ou alors a la confiture",
+    titre: "Cake aux fruits secs",
+    image: "/img/Pralines.jpg",
+    description: "Cake aux fruits secs en forme de cone",
     alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Milles feuilles à la fraise",
-    image: "/img/MillefeuillesFraise.jpg",
+    image: "/img/Pralines2.jpg",
+    description: "Milles feuilles à la fraise.",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Macaron au chocolat ",
+    image: "/img/Pralines3.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
     alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron au chocolat ",
-    image: "/img/sachetsDePralines.jpg",
+    image: "/img/PralinesChocoNoir.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
     alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron au chocolat ",
-    image: "/img/Meringues.jpg",
-    description: "Macaron fouré au chocolat ou alors a la confiture",
-    alt: "produits (pralines,gateau,...)",
-  },
-  {
-    titre: "Macaron au chocolat ",
-    image: "/img/galleteDesRois.jpg",
+    image: "/img/sapin_au_chocolat.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
     alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Mille feuilles à la fraise ",
-    image: "/img/sachetsDePralines.jpg",
+    image: "/img/tasseDeCafeChoco.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
     alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron rose au chocolat ",
-    image: "/img/sachetsDePralines.jpg",
+    image: "/img/Meringues.jpg",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Macaron rose au chocolat ",
+    image: "/img/tarteAuxPommes.jpg",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Macaron rose au chocolat ",
+    image: "/img/MillefeuillesFraise.jpg",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Macaron rose au chocolat ",
+    image: "/img/galleteDesRois.jpg",
+    description: "Macaron fouré au chocolat ou alors a la confiture",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Macaron rose au chocolat ",
+    image: "/img/cakeFruitsSecs.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
     alt: "produits (pralines,gateau,...)",
   },
@@ -79,23 +103,26 @@ export default function Menu() {
         flexWrap="wrap"
         justifyContent="center"
         padding="10px"
-        justifyContent="space-between"
       >
         {products.map((product) => (
           <HStack m="1" flexWrap="wrap">
-            <Image
-              w="250px"
-              h="250px"
-              border="3px solid #E6CCB2"
-              src={product.image}
-              alt={product.alt}
-            />
-            <VStack fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}>
-              <Heading as="h4" size="lg" color="#7F5539">
-                {product.titre}
-              </Heading>
-              <Text color="#B08968">{product.description}</Text>
-            </VStack>
+            <figure class="imghvr-push-up">
+              <Image
+                w="250px"
+                h="250px"
+                border="3px solid #E6CCB2"
+                src={product.image}
+                alt={product.alt}
+              />
+              <figcaption>
+                <Heading as="h2" size="md" class="ih-fade-down ih-delay-sm ">
+                  {product.titre}
+                </Heading>
+                <Text class="ih-zoom-in ih-delay-md">
+                  <i>{product.description}</i>
+                </Text>
+              </figcaption>
+            </figure>
           </HStack>
         ))}
       </Flex>

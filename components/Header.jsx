@@ -15,6 +15,7 @@ export default function Navbar() {
       position="fixed"
       className="header"
       width="100%"
+      zIndex="1"
     >
       <Link px="3" href="#Home">
         {" "}
