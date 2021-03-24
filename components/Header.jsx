@@ -19,12 +19,12 @@ export default function Navbar() {
     >
       <Link px="3" href="#Home">
         {" "}
-        Home{" "}
+        Acceuil{" "}
       </Link>{" "}
       |
       <Link px="3" href="#Menu">
         {" "}
-        Products{" "}
+        Produits{" "}
       </Link>
       |
       <Link px="3" href="#Contact">

@@ -95,7 +95,7 @@ export default function Menu() {
         fontFamily="MagentaRose"
         color="#7F5539"
       >
-        My products
+        Mes Produits
       </Heading>{" "}
       <Flex
         width="70%"

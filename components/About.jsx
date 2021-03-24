@@ -18,7 +18,7 @@ export default function About() {
         fontFamily="MagentaRose"
         pt={["10", "10", "10", "20", "20", "20"]}
       >
-        About
+        À Propos
       </Heading>{" "}
       <Text
         textAlign="center"
