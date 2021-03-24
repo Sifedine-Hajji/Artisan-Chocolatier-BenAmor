@@ -3,13 +3,13 @@ import { Flex, Image, Heading, Text, HStack, VStack } from "@chakra-ui/react";
 const products = [
   {
     titre: " Pralines mix",
-    image: "./img/sachetsDePralines.jpg",
+    image: "/img/sachetsDePralines.jpg",
     description: "mix de pralines divers (coco, noisettte, amandes)",
     alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Cake aux fruits secs",
-    image: "./img/Pralines.jpg",
+    image: "/img/Pralines.jpg",
     description: "Cake aux fruits secs en forme de cone",
     alt: "produits (pralines,gateau,...)",
   },
@@ -27,13 +27,13 @@ const products = [
   },
   {
     titre: "Macaron au chocolat ",
-    image: "/img/PralinesChocoNoir.jpg",
+    image: "/img/pralinesChocoNoir.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
     alt: "produits (pralines,gateau,...)",
   },
   {
     titre: "Macaron au chocolat ",
-    image: "/img/sapin_au_chocolat.jpg",
+    image: "/img/sapin_au_Chocolat.jpg",
     description: "Macaron fouré au chocolat ou alors a la confiture",
     alt: "produits (pralines,gateau,...)",
   },
