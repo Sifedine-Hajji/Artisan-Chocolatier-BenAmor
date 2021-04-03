@@ -10,24 +10,27 @@ export default function Navbar() {
   }, []);
   return (
     <Flex
-      color="#E6CCB2"
-      padding="4"
-      position="fixed"
+      display={["none", "none", "none", "flex", "flex", "flex"]}
       className="header"
+      position="fixed"
+      zIndex="3"
       width="100%"
-      zIndex="1"
+      color="white"
     >
-      <Link px="3" href="#Home">
+      <Link px="2" p={4} href="#Home" _hover={{ backgroundColor: "#AB825F" }}>
         {" "}
         Acceuil{" "}
       </Link>{" "}
-      |
-      <Link px="3" href="#Menu">
+      <Link px="2" p={4} href="#Menu" _hover={{ backgroundColor: "#AB825F" }}>
         {" "}
         Produits{" "}
       </Link>
-      |
-      <Link px="3" href="#Contact">
+      <Link
+        px="2"
+        p={4}
+        href="#Contact"
+        _hover={{ backgroundColor: "#AB825F" }}
+      >
         {" "}
         Contact{" "}
       </Link>

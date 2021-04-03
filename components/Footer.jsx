@@ -7,7 +7,7 @@ export default function Footer() {
         justifyContent="center"
         flexWrap="wrap"
         textAlign="center"
-        backgroundColor="#B07E4A"
+        backgroundColor="#7F5539"
         fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}
       >
         <Text>

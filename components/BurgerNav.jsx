@@ -1,4 +1,10 @@
+import React from "react";
 import {
+  Link,
+  Flex,
+  Menu,
+  MenuItem,
+  Button,
   Drawer,
   DrawerBody,
   DrawerFooter,
@@ -6,41 +12,80 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
+  useDisclosure,
 } from "@chakra-ui/react";
+import { HamburgerIcon } from "@chakra-ui/icons";
 
-function DrawerExample() {
+export default function MobileNavbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
-
   return (
-    <>
-      <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-        Open
+    <Flex
+      display={["flex", "flex", "flex", "none", "none", "none"]}
+      className="header"
+      position="fixed"
+      zIndex="3"
+      justifyContent="flex-end"
+      width="100%"
+    >
+      <Button
+        ref={btnRef}
+        backgroundColor="#7F5539"
+        color="white"
+        onClick={onOpen}
+        margin="30px"
+        p={6}
+      >
+        <HamburgerIcon color="white" w={6} h={8} />
       </Button>
       <Drawer
         isOpen={isOpen}
-        placement="right"
+        placement="top"
         onClose={onClose}
         finalFocusRef={btnRef}
       >
         <DrawerOverlay>
-          <DrawerContent>
+          <DrawerContent backgroundColor="#7F5539" color="white">
             <DrawerCloseButton />
-            <DrawerHeader>Create your account</DrawerHeader>
+            <DrawerHeader>Chocolaterie Benamor </DrawerHeader>
 
-            <DrawerBody>
-              <Input placeholder="Type here..." />
+            <DrawerBody width="100%" textAlign="center">
+              <Menu>
+                <MenuItem
+                  justifyContent="center"
+                  _hover={{ backgroundColor: "#AB825F" }}
+                  fontSize="30px"
+                  margin="0"
+                >
+                  <Link href="#Home" _hover={{ textDecoration: "none" }}>
+                    Home
+                  </Link>{" "}
+                </MenuItem>
+                <MenuItem
+                  _hover={{ backgroundColor: "#AB825F" }}
+                  justifyContent="center"
+                  fontSize="30px"
+                >
+                  <Link href="#Menu" _hover={{ textDecoration: "none" }}>
+                    Produits
+                  </Link>
+                </MenuItem>
+                <MenuItem
+                  _hover={{ backgroundColor: "#AB825F" }}
+                  justifyContent="center"
+                  fontSize="30px"
+                >
+                  <Link href="#Contact" _hover={{ textDecoration: "none" }}>
+                    Contact
+                  </Link>
+                </MenuItem>
+              </Menu>
             </DrawerBody>
 
-            <DrawerFooter>
-              <Button variant="outline" mr={3} onClick={onClose}>
-                Cancel
-              </Button>
-              <Button color="blue">Save</Button>
-            </DrawerFooter>
+            <DrawerFooter></DrawerFooter>
           </DrawerContent>
         </DrawerOverlay>
       </Drawer>
-    </>
+    </Flex>
   );
 }

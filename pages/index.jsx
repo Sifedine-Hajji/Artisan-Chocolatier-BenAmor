@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import MobileNavbar from "../components/BurgerNav";
 import Jumbotron from "../components/jumbotron";
 import About from "../components/About";
 import Menu from "../components/Menu";
@@ -27,6 +28,7 @@ export default function Home() {
         id="Home"
       >
         <Header />
+        <MobileNavbar />
         <Jumbotron />
       </Box>
 

@@ -30,7 +30,7 @@ export default function Contact() {
       </Heading>
       <Text textAlign="center" fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}>
         {" "}
-        Pour les commandes ou tout autre renseignement veuillez me contactez.
+        Pour les commandes ou tout autre renseignement veuillez me contacter.
       </Text>
       <BiArrowFromTop size="2em" />
       <Flex margin="20px">
