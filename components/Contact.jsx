@@ -41,7 +41,11 @@ export default function Contact() {
         >
           <FaInstagram size="3em" />
         </Link>
-        <Link m="3" href="https://www.facebook.com/" target="_BLANK">
+        <Link
+          m="3"
+          href="https://www.facebook.com/artisan.ben.12"
+          target="_BLANK"
+        >
           <FaFacebook size="3em" />
         </Link>
         <Link href="tel:+32474770338" m="3">
