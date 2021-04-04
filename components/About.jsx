@@ -26,10 +26,13 @@ export default function About() {
         width={["100%", "100%", "100%", "80%", "50%", "50%"]}
         fontSize={["sm", "sm", "sm", "md", "lg", "lg"]}
       >
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste modi
-        expedita alias id amet quo dolore nobis distinctio ut. Ea consectetur
-        incidunt optio fugit rem, aperiam amet odio error nostrum. In reiciendis
-        culpa sint magni commodi nobis quibusdam qui quod corporis, beatae
+        AB artisan de fonction comptable se reoriente de la manière la plus
+        simple dans la transformation de differents produits noble afin de
+        devenir créateur degourmandise. On vous propose Artisanals dont les
+        matieres premieres sont de qualité s nobles et de saisons. dans le
+        respect ancestral de la fabricatrion de chacun de ses articles proposés.
+        Ici on peut découvrir des nouveaux goûts ou encore personnalisés selon
+        le desir de chacun.
       </Text>
       <ScrollButton />
     </Flex>

@@ -2,75 +2,88 @@ import { Flex, Image, Heading, Text, HStack, VStack } from "@chakra-ui/react";
 
 const products = [
   {
-    titre: " Titre",
+    titre: " Truffes",
     image: "/img/sachetsDePralines.jpg",
-    description: "Description",
+    description:
+      "Truffes en 2 facons: Truffe praliné enrobage cacao, Truffe chocolat noir enrobage amandes",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "une Bouchée",
     image: "/img/Pralines.jpg",
-    description: "Description",
+    description:
+      "Une bouchée croustillant feuillantine enrobage chocolat noir.",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Praline Pistache",
     image: "/img/pralines2.jpg",
-    description: "Description",
+    description:
+      "Maspin à la pistache enrobage chocolat au lait et decor pistache broyée.",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Des bouchées",
     image: "/img/Pralines3.jpg",
-    description: "Description",
+    description:
+      "Des bouchées dréssé sur un biscuit sablé à l'orange enrobage au choix(chocolat au lait café et chocolat noir amandes éffilées)",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Un Manon",
     image: "/img/pralinesChocoNoir.jpg",
-    description: "Description",
+    description:
+      "Un manon dressé sur un palet de maspin avec un cerneau de noix enrobés au chocolat au lait.",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Sapin Fantaisie ",
     image: "/img/sapin_au_Chocolat.jpg",
-    description: "Description",
+    description:
+      "Tronc chocolat au lait, fruits secs  cône en chocolat noir décoré de fil de chocolat au lait saupoudré de coco.",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Des Snobinette",
     image: "/img/tasseDeCafeChoco.jpg",
-    description: "Description",
+    description:
+      "Différents choix de petits cups (pralinées, chocolat noir, chocolat au lait, chocolat amandes et chcolat pistache,...) selon vos envies.",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Meringues en rosace",
     image: "/img/Meringues.jpg",
-    description: "Description",
+    description:
+      "rosace de meringue. Peut etre proposé selon le choix(speculoos,violette,pistache,noisette) avec ou sans chocolat. ",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Tarte aux pomme rosace",
     image: "/img/tarteAuxPommes.jpg",
-    description: "Description",
+    description:
+      "pâte à tarte, un fond de crème patissière pomme sucre canelle",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre:
+      "Mille feuilles framboise avec des paillette de chocolat et des fraise",
     image: "/img/MillefeuillesFraise.jpg",
-    description: "Description",
+    description:
+      "Pate feuilleté crouistillante, creme patissiere vanille, coulis de framboise et framboise fraiche. Un glace blanc pailleté de chocolat.",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Petivie",
     image: "/img/galleteDesRois.jpg",
-    description: "Description",
+    description:
+      "Pâte feuilleté interieur frangipane sur un lit de fruits rouge",
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre: "Titre",
+    titre: "Cake fruits secs",
     image: "/img/cakeFruitsSecs.jpg",
-    description: "Description",
+    description:
+      "cranberry, raisin secs, amandes, fraises sechée, cerneau de noix, noisettes.",
     alt: "produits (pralines,gateau,...)",
   },
 ];
