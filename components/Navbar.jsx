@@ -17,17 +17,17 @@ export default function Navbar() {
       width="100%"
       color="white"
     >
-      <Link px="2" p={4} href="#Home" _hover={{ backgroundColor: "#AB825F" }}>
+      <Link px="2" p={5} href="#Home" _hover={{ backgroundColor: "#AB825F" }}>
         {" "}
         Acceuil{" "}
       </Link>{" "}
-      <Link px="2" p={4} href="#Menu" _hover={{ backgroundColor: "#AB825F" }}>
+      <Link px="2" p={5} href="#Menu" _hover={{ backgroundColor: "#AB825F" }}>
         {" "}
         Produits{" "}
       </Link>
       <Link
         px="2"
-        p={4}
+        p={5}
         href="#Contact"
         _hover={{ backgroundColor: "#AB825F" }}
       >

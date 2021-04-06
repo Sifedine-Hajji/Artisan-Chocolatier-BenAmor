@@ -65,8 +65,7 @@ const products = [
     alt: "produits (pralines,gateau,...)",
   },
   {
-    titre:
-      "Mille feuilles framboise avec des paillette de chocolat et des fraise",
+    titre: "Milles feuilles framboise et fraise",
     image: "/img/MillefeuillesFraise.jpg",
     description:
       "Pate feuilleté crouistillante, creme patissiere vanille, coulis de framboise et framboise fraiche. Un glace blanc pailleté de chocolat.",
@@ -84,6 +83,96 @@ const products = [
     image: "/img/cakeFruitsSecs.jpg",
     description:
       "cranberry, raisin secs, amandes, fraises sechée, cerneau de noix, noisettes.",
+    alt: "Cake fruits secs",
+  },
+  {
+    titre: "Titre",
+    image: "/img/GateauFraiseKiwi.jpeg",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
+    alt: "produits (pralines,gateau,...)",
+  },
+  {
+    titre: "Titre",
+    image: "/img/",
+    description: "Description",
     alt: "produits (pralines,gateau,...)",
   },
 ];
@@ -95,8 +184,7 @@ export default function Menu() {
       width="100%"
       flexDir="column"
       alignItems="center"
-      // backgroundColor="#121417"
-      backgroundImage="linear-gradient(339deg, rgba(47, 47, 47,0.02) 0%, rgba(47, 47, 47,0.02) 42%,transparent 42%, transparent 99%,rgba(17, 17, 17,0.02) 99%, rgba(17, 17, 17,0.02) 100%),linear-gradient(257deg, rgba(65, 65, 65,0.02) 0%, rgba(65, 65, 65,0.02) 11%,transparent 11%, transparent 92%,rgba(53, 53, 53,0.02) 92%, rgba(53, 53, 53,0.02) 100%),linear-gradient(191deg, rgba(5, 5, 5,0.02) 0%, rgba(5, 5, 5,0.02) 1%,transparent 1%, transparent 45%,rgba(19, 19, 19,0.02) 45%, rgba(19, 19, 19,0.02) 100%),linear-gradient(29deg, rgba(28, 28, 28,0.02) 0%, rgba(28, 28, 28,0.02) 33%,transparent 33%, transparent 40%,rgba(220, 220, 220,0.02) 40%, rgba(220, 220, 220,0.02) 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));"
+      backgroundImage="radial-gradient(circle at center center, rgba(217, 217, 217,0.05) 0%, rgba(217, 217, 217,0.05) 15%,rgba(197, 197, 197,0.05) 15%, rgba(197, 197, 197,0.05) 34%,rgba(178, 178, 178,0.05) 34%, rgba(178, 178, 178,0.05) 51%,rgba(237, 237, 237,0.05) 51%, rgba(237, 237, 237,0.05) 75%,rgba(138, 138, 138,0.05) 75%, rgba(138, 138, 138,0.05) 89%,rgba(158, 158, 158,0.05) 89%, rgba(158, 158, 158,0.05) 100%),radial-gradient(circle at center center, rgb(255,255,255) 0%, rgb(255,255,255) 6%,rgb(255,255,255) 6%, rgb(255,255,255) 12%,rgb(255,255,255) 12%, rgb(255,255,255) 31%,rgb(255,255,255) 31%, rgb(255,255,255) 92%,rgb(255,255,255) 92%, rgb(255,255,255) 97%,rgb(255,255,255) 97%, rgb(255,255,255) 100%); background-size: 42px 42px;"
       id="Menu"
     >
       <Heading
@@ -106,12 +194,12 @@ export default function Menu() {
         fontSize={["30px", "30px", "30px", "40px", "50px", "50px"]}
         paddingTop={["20", "20", "20", "100px", "100px", "100px"]}
         fontFamily="MagentaRose"
-        color="#7F5539"
+        color="#E6CCB2"
       >
         Mes Produits
       </Heading>{" "}
       <Flex
-        width="70%"
+        width={["100ù", "100%", "100%", "100%", "60%", "60%"]}
         marginTop="90px"
         flexWrap="wrap"
         justifyContent="center"

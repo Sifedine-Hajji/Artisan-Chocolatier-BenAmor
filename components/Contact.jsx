@@ -10,15 +10,16 @@ export default function Contact() {
   return (
     <Flex
       height="30vh"
-      color="#E6CCB2"
+      color="#E9ECEF"
       width="100%"
       flexDir="column"
       alignItems="center"
-      backgroundColor="#121417"
+      backgroundColor="#090A0B"
       pt="10px"
       id="Contact"
     >
       <Heading
+        color="#E6CCB2"
         as="h1"
         textAlign="center"
         width="100%"
@@ -35,6 +36,7 @@ export default function Contact() {
       <BiArrowFromTop size="2em" />
       <Flex margin="20px">
         <Link
+          _hover={{ transform: "scale(1.2)" }}
           href="https://www.instagram.com/instagourmand1/"
           target="_BLANK"
           m="3"
@@ -42,16 +44,25 @@ export default function Contact() {
           <FaInstagram size="3em" />
         </Link>
         <Link
+          _hover={{ transform: "scale(1.2)" }}
           m="3"
           href="https://www.facebook.com/artisan.ben.12"
           target="_BLANK"
         >
           <FaFacebook size="3em" />
         </Link>
-        <Link href="tel:+32474770338" m="3">
+        <Link
+          _hover={{ transform: "scale(1.2)" }}
+          href="tel:+32474770338"
+          m="3"
+        >
           <FaPhoneSquare size="3em" />
         </Link>
-        <Link href="mailto:amalbenamor1981@hotmail.com" m="3">
+        <Link
+          _hover={{ transform: "scale(1.2)" }}
+          href="mailto:amalbenamor1981@hotmail.com"
+          m="3"
+        >
           <FaEnvelope size="3em" />
         </Link>
       </Flex>
