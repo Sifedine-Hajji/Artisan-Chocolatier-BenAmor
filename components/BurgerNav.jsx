@@ -30,13 +30,12 @@ export default function MobileNavbar() {
     >
       <Button
         ref={btnRef}
-        backgroundColor="#7F5539"
-        color="white"
+        backgroundColor="black"
         onClick={onOpen}
         margin="30px"
         p={6}
       >
-        <HamburgerIcon color="white" w={6} h={8} />
+        <HamburgerIcon color="#7F5539" w={6} h={8} />
       </Button>
       <Drawer
         isOpen={isOpen}
@@ -45,7 +44,7 @@ export default function MobileNavbar() {
         finalFocusRef={btnRef}
       >
         <DrawerOverlay>
-          <DrawerContent backgroundColor="#7F5539" color="white">
+          <DrawerContent backgroundColor="black" color="white">
             <DrawerCloseButton />
             <DrawerHeader>Chocolaterie Benamor </DrawerHeader>
 

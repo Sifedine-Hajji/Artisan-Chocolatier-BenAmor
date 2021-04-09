@@ -17,19 +17,32 @@ export default function Navbar() {
       width="100%"
       color="white"
     >
-      <Link px="2" p={5} href="#Home" _hover={{ backgroundColor: "#AB825F" }}>
+      <Link
+        marginLeft="20px"
+        marginRight="20px"
+        p={4}
+        paddingBottom="1px"
+        href="#Home"
+        _hover={{
+          borderBottom: "3px solid #AB825F",
+        }}
+      >
         {" "}
         Acceuil{" "}
       </Link>{" "}
-      <Link px="2" p={5} href="#Menu" _hover={{ backgroundColor: "#AB825F" }}>
+      <Link
+        marginRight="20px"
+        p={4}
+        href="#Menu"
+        _hover={{ borderBottom: "3px solid #AB825F" }}
+      >
         {" "}
         Produits{" "}
       </Link>
       <Link
-        px="2"
-        p={5}
+        p={4}
         href="#Contact"
-        _hover={{ backgroundColor: "#AB825F" }}
+        _hover={{ borderBottom: "3px solid #AB825F" }}
       >
         {" "}
         Contact{" "}
