@@ -16,12 +16,13 @@ export default function Navbar() {
       zIndex="3"
       width="100%"
       color="white"
+      paddingLeft="20px"
     >
       <Link
-        marginLeft="20px"
         marginRight="20px"
         p={4}
         paddingBottom="1px"
+        borderBottom="3px solid transparent"
         href="#Home"
         _hover={{
           borderBottom: "3px solid #AB825F",
@@ -33,6 +34,7 @@ export default function Navbar() {
       <Link
         marginRight="20px"
         p={4}
+        borderBottom="3px solid transparent"
         href="#Menu"
         _hover={{ borderBottom: "3px solid #AB825F" }}
       >
@@ -41,6 +43,7 @@ export default function Navbar() {
       </Link>
       <Link
         p={4}
+        borderBottom="3px solid transparent"
         href="#Contact"
         _hover={{ borderBottom: "3px solid #AB825F" }}
       >

@@ -207,7 +207,7 @@ export default function Menu() {
       >
         {products.map((product) => (
           <HStack m="1" flexWrap="wrap">
-            <figure class="imghvr-push-up">
+            <figure className="imghvr-push-up">
               <Image
                 w="250px"
                 h="250px"
@@ -216,7 +216,11 @@ export default function Menu() {
                 alt={product.alt}
               />
               <figcaption>
-                <Heading as="h2" size="md" class="ih-fade-down ih-delay-sm ">
+                <Heading
+                  as="h2"
+                  size="md"
+                  className="ih-fade-down ih-delay-sm "
+                >
                   {product.titre}
                 </Heading>
                 <Text class="ih-zoom-in ih-delay-md">
